@@ -1,0 +1,48 @@
+{
+  "name": "typescript-koa-react",
+  "version": "0.0.0",
+  "description": "A boilerplate for typescript-koa-react",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "serve": "pm2 restart lib/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "boilerplate",
+    "typescript",
+    "koa",
+    "react"
+  ],
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcatliu/typescript-koa-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xcatliu/typescript-koa-react/issues"
+  },
+  "homepage": "https://github.com/xcatliu/typescript-koa-react#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/node": "^8.0.28",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "eslint": "^4.6.1",
+    "eslint-config-alloy": "^1.0.0",
+    "eslint-plugin-react": "^7.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.2",
+    "run-sequence": "^2.1.0",
+    "typescript": "^2.5.2",
+    "typescript-eslint-parser": "^8.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "pm2": "^2.6.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
